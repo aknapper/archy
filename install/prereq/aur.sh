@@ -7,4 +7,3 @@ cd yay
 makepkg -si --noconfirm
 cd -
 rm -rf yay
-cd ~

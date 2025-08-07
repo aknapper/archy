@@ -4,4 +4,9 @@ sudo pacman -Sy --noconfirm --needed \
 	fastfetch \
 	btop \
 	tree \
-	man
+	man \
+	github-cli \
+	lazygit
+
+yay -S --noconfirm --needed \
+	lazydocker
