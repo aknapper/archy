@@ -6,7 +6,8 @@ sudo pacman -Sy --noconfirm --needed \
 	tree \
 	man \
 	github-cli \
-	lazygit
+	lazygit \
+	kitty
 
 yay -S --noconfirm --needed \
 	lazydocker

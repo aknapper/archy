@@ -1,3 +1,3 @@
 # archy
 
-Personal reproducible arch setup
+Scripts for a minimal and reproducible arch setup.
