@@ -12,8 +12,10 @@ source install/config/nvidia.sh
 source install/development/terminal.sh
 source install/development/docker.sh
 source install/development/nvim.sh
+source install/development/firewall.sh
 
 source install/desktop/desktop.sh
 source install/desktop/hypr.sh
+source install/desktop/fonts.sh
 
 sudo pacman -Syu --noconfirm

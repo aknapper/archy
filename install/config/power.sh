@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yay -S --noconfirm power-profiles-daemon
+yay -S --noconfirm --needed power-profiles-daemon
 
 if ls /sys/class/power_supply/BAT* &>/dev/null; then
 	# running on battery

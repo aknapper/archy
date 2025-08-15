@@ -1,4 +1,4 @@
 #!/bin/bash
 
-yay -S --noconfirm --needed \
+sudo pacman -Sy --noconfirm --needed \
 	hyprland

@@ -7,7 +7,14 @@ sudo pacman -Sy --noconfirm --needed \
 	man \
 	github-cli \
 	lazygit \
-	kitty
+	kitty \
+	tldr \
+	bash-completion \
+	wget \
+	curl \
+	unzip \
+	inetutils \
+	impala
 
 yay -S --noconfirm --needed \
 	lazydocker

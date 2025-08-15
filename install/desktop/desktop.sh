@@ -1,4 +1,5 @@
 #!/bin/bash
 
-yay -S --noconfirm --needed \
-	chromium
+sudo pacman -Sy --noconfirm --needed \
+	chromium \
+	nautilus
