@@ -1,7 +1,7 @@
 #!/bin/bash
 
 yay -Sy --noconfirm --needed \
-	ttf-font-awesome \
+	ttf-meslo-nerd \
 	ttf-cascadia-mono-nerd \
 	ttf-ia-writer \
 	noto-fonts \
