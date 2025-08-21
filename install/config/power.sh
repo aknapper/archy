@@ -1,6 +1,9 @@
 #!/bin/bash
 
-yay -S --noconfirm --needed power-profiles-daemon
+yay -S --noconfirm --needed \
+	python \
+	python-gobject \
+	power-profiles-daemon
 
 if ls /sys/class/power_supply/BAT* &>/dev/null; then
 	# running on battery

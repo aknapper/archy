@@ -14,7 +14,8 @@ sudo pacman -Sy --noconfirm --needed \
 	curl \
 	unzip \
 	inetutils \
-	impala
+	impala \
+	git-delta
 
 yay -S --noconfirm --needed \
 	lazydocker
