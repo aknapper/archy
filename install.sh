@@ -20,6 +20,8 @@ source $ARCHY_INSTALL/development/firewall.sh
 source $ARCHY_INSTALL/desktop/desktop.sh
 source $ARCHY_INSTALL/desktop/hypr.sh
 source $ARCHY_INSTALL/desktop/fonts.sh
+#source $ARCHY_INSTALL/desktop/theme.sh
+#source $ARCHY_INSTALL/desktop/bluetooth.sh
 
 sudo pacman -Syu --noconfirm
 
