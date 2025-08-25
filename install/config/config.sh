@@ -3,7 +3,11 @@
 set -e
 
 sudo pacman -Syu --noconfirm --needed \
-	stow
+    stow
 
 # symlink all relevant dotfiles
-
+stow \
+	-d ~/.local/bin/archy/.dotfiles \
+	-t ~ \
+	git \
+	nvim
