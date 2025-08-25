@@ -11,3 +11,5 @@ stow \
 	-t ~ \
 	git \
 	nvim
+
+cp ~/.local/bin/archy/default/bashrc ~/.bashrc
