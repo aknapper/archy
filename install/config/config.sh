@@ -7,9 +7,10 @@ sudo pacman -Syu --noconfirm --needed \
 
 # symlink all relevant dotfiles
 stow \
-	-d ~/.local/bin/archy/.dotfiles \
-	-t ~ \
-	git \
-	nvim
+    -d ~/.local/bin/archy/.dotfiles \
+    -t ~ \
+    git \
+    nvim \
+    hypr
 
 cp ~/.local/bin/archy/default/bashrc ~/.bashrc
