@@ -11,6 +11,7 @@ stow \
     -t ~ \
     git \
     nvim \
-    hypr
+    hypr \
+    waybar
 
 cp ~/.local/bin/archy/default/bashrc ~/.bashrc
