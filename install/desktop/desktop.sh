@@ -3,4 +3,5 @@
 sudo pacman -Sy --noconfirm --needed \
     chromium \
     firefox \
-    nautilus
+    nautilus \
+    brightnessctl
